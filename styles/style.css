@@ -1,0 +1,30 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto;
+	font: 1.25em sans-serif;
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+}
+
+.title {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: auto;
+	max-width: 510px;
+	font-size: 1.75em;
+}
+
+.my-block {
+	display: inline-block;
+	margin: 20px;
+	width: 300px;
+	height: 300px;
+	border: #000 0.3em double;
+}
