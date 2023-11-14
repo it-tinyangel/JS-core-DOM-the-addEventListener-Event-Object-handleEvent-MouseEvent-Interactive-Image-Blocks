@@ -1,6 +1,6 @@
 const blocks = document.querySelectorAll('.block');
 
-// Add a click handler for each block
+// Click handler for each block
 blocks.forEach((block, index) => {
 	block.addEventListener('click', setBackgroundImage);
 });
