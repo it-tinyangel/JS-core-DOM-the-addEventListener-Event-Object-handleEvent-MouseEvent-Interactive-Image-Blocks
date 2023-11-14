@@ -4,7 +4,7 @@ blocks.forEach((block, index) => {
 	block.addEventListener('click', setImage);
 });
 
-// Function for Click handler
+// Function to Click handler
 function setImage() {
 	let userURL = prompt(`Please enter the image URL for this Box:`);
 
