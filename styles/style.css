@@ -21,7 +21,7 @@ body {
 	font-size: 1.75em;
 }
 
-.my-block {
+.block {
 	display: inline-block;
 	margin: 20px;
 	width: 300px;
