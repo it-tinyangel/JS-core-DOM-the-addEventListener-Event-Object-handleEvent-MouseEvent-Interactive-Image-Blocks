@@ -11,7 +11,6 @@ blocks.forEach((block, index) => {
 			block.style.backgroundPosition = 'center';
 			block.style.backgroundRepeat = 'no-repeat';
 			block.style.backgroundSize = 'cover';
-			block.style.backgroundImage = `url('${userURL}')`;
 		} else {
 			alert(`You did not enter the URL for the Box ${index + 1}. Please try again.`);
 		}
