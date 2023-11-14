@@ -1,12 +1,13 @@
 const blocks = document.querySelectorAll('.block');
 
+// Add a click handler for each block
 blocks.forEach((block, index) => {
-	block.addEventListener('click', setImage);
+	block.addEventListener('click', setBackgroundImage);
 });
 
-// Function to Click handler
-function setImage() {
-	let userURL = prompt(`Please enter the image URL for this Box:`);
+// Function to click handler  that sets the background image for the block
+function setBackgroundImage() {
+	let userURL = prompt('Please enter the image URL for this Box:');
 
 	if (userURL !== null && userURL !== '') {
 		this.style.backgroundImage = `url('${userURL}')`;
@@ -14,6 +15,6 @@ function setImage() {
 		this.style.backgroundRepeat = 'no-repeat';
 		this.style.backgroundSize = 'cover';
 	} else {
-		alert(`You did not enter the URL for this Box. Please try again.`);
+		alert('You did not enter the URL for this Box. Please try again.');
 	}
 }
